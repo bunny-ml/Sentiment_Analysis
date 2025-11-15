@@ -38,7 +38,7 @@ def load_sentiment_model():
 
 # --- Main Streamlit Application ---
 def main():
-    st.title("Sentiment Analysis Deployment 🚀")
+    st.title("Sentiment Analysis 🚀")
     st.markdown("Enter a piece of text (e.g., a review, comment, or statement) below to classify its sentiment as Positive or Negative.")
     st.markdown("The model uses TF-IDF so the accuracy is not too good as NN models ,it is only 85% using LogisticRegression on CV. ")
 
